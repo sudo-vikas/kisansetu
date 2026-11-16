@@ -1,0 +1,242 @@
+export const mockCrops = [
+  {
+    id: 1,
+    crop_name: "Wheat",
+    crop_name_hi: "सीहोर शरबती गेहूँ",
+    variety: "Sehore Sharbati (Golden Grain)",
+    category: "grains",
+    farming_type: "natural",
+    description: "Celebrated as the 'Golden Grain' of India. Plump, amber-colored, naturally sweet wheat kernels grown in black cotton soil without synthetic urea. Yields ultra-soft, aromatic rotis.",
+    price_per_kg: 36.0,
+    available_quantity_kg: 4200.0,
+    min_order_kg: 10.0,
+    harvest_date: "Nov 2026 (Fresh Rabi Harvest)",
+    moisture_percent: 10.8,
+    image_url: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=800&q=80",
+    lab_report_summary: "Moisture 10.8%, Protein 13.4%, Zero chemical residues detected by MPKV Labs.",
+    farmer: {
+      id: 1,
+      name: "Rameshwar Patel (रामेश्वर पटेल)",
+      village: "Ashta, Sehore",
+      state: "Madhya Pradesh",
+      is_verified: true,
+      farm_size_acres: 14.5
+    }
+  },
+  {
+    id: 2,
+    crop_name: "Bajra",
+    crop_name_hi: "देसी नागौरी बाजरा",
+    variety: "Desi Nagauri Pearl Millet",
+    category: "millets",
+    farming_type: "organic",
+    description: "Pure native pearl millet from the arid soils of Nagaur. Sun-dried on desert dunes. Super rich in iron, zinc, and dietary fiber. Ideal for authentic winter Bajra rotla and khichdi.",
+    price_per_kg: 32.0,
+    available_quantity_kg: 3100.0,
+    min_order_kg: 5.0,
+    harvest_date: "Oct 2026 (Kharif Harvest)",
+    moisture_percent: 11.2,
+    image_url: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=800&q=80",
+    lab_report_summary: "Iron 8.2mg/100g, 100% Organically Certified by Rajasthan Organic Board.",
+    farmer: {
+      id: 2,
+      name: "Ramkaran Choudhary (रामकरण चौधरी)",
+      village: "Kuchaman, Nagaur",
+      state: "Rajasthan",
+      is_verified: true,
+      farm_size_acres: 22.0
+    }
+  },
+  {
+    id: 3,
+    crop_name: "Rice",
+    crop_name_hi: "तराओरी पारंपरिक बासमती",
+    variety: "1121 Royal Aromatic Basmati",
+    category: "rice",
+    farming_type: "natural",
+    description: "Heritage extra-long grain aged Basmati from the canal-fed plains of Taraori. Aged for 18 months in traditional moisture-controlled granaries for feather-light non-sticky fluffiness.",
+    price_per_kg: 72.0,
+    available_quantity_kg: 2500.0,
+    min_order_kg: 5.0,
+    harvest_date: "Aged 2025/2026 Reserve",
+    moisture_percent: 9.5,
+    image_url: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=800&q=80",
+    lab_report_summary: "Grain elongation ratio 2.1x, Unpolished single-origin grain.",
+    farmer: {
+      id: 3,
+      name: "Gurpreet Singh Gill (गुरप्रीत सिंह गिल)",
+      village: "Taraori, Karnal",
+      state: "Haryana",
+      is_verified: true,
+      farm_size_acres: 18.0
+    }
+  },
+  {
+    id: 4,
+    crop_name: "Wheat",
+    crop_name_hi: "प्राचीन खापली (एमर) गेहूँ",
+    variety: "Khapli (Emmer Heirloom Wheat)",
+    category: "grains",
+    farming_type: "organic",
+    description: "Ancient Vedic diploid wheat grain unchanged for thousands of years. Low glycemic index, easily digestible, suitable for diabetic and gluten-sensitive diets. Rich in antioxidants.",
+    price_per_kg: 68.0,
+    available_quantity_kg: 1200.0,
+    min_order_kg: 5.0,
+    harvest_date: "Nov 2026 Harvest",
+    moisture_percent: 11.0,
+    image_url: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+    lab_report_summary: "Glycemic Index < 45, NABL Accredited Organic Batch #KHP-92.",
+    farmer: {
+      id: 4,
+      name: "Tukaram Shinde (तुकाराम शिंदे)",
+      village: "Miraj, Sangli",
+      state: "Maharashtra",
+      is_verified: true,
+      farm_size_acres: 9.0
+    }
+  },
+  {
+    id: 5,
+    crop_name: "Atta",
+    crop_name_hi: "ताज़ा पत्थर चक्की शरबती आटा",
+    variety: "Stone-Ground Whole Sharbati Atta",
+    category: "flour",
+    farming_type: "natural",
+    description: "Milled fresh upon order using low-heat slow stone chakki to keep bran and germ nutrients intact. Never bleached, zero maida mixing, zero preservatives.",
+    price_per_kg: 42.0,
+    available_quantity_kg: 1800.0,
+    min_order_kg: 5.0,
+    harvest_date: "Milled Fresh Weekly",
+    moisture_percent: 12.0,
+    image_url: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+    lab_report_summary: "100% Whole Grain Bran intact, Zero additive declaration.",
+    farmer: {
+      id: 1,
+      name: "Rameshwar Patel (रामेश्वर पटेल)",
+      village: "Ashta, Sehore",
+      state: "Madhya Pradesh",
+      is_verified: true,
+      farm_size_acres: 14.5
+    }
+  },
+  {
+    id: 6,
+    crop_name: "Pulses",
+    crop_name_hi: "देसी काबुली/चना (बिना पॉलिश)",
+    variety: "Desi Unpolished Chana (Brown Gram)",
+    category: "pulses",
+    farming_type: "natural",
+    description: "Naturally sun-ripened whole brown gram. Unpolished with no water or oil glazing. High dietary protein and earthy nutty flavor.",
+    price_per_kg: 58.0,
+    available_quantity_kg: 900.0,
+    min_order_kg: 5.0,
+    harvest_date: "Oct 2026",
+    moisture_percent: 10.5,
+    image_url: "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?auto=format&fit=crop&w=800&q=80",
+    lab_report_summary: "Protein 21.8%, Zero chemical polish verified.",
+    farmer: {
+      id: 2,
+      name: "Ramkaran Choudhary (रामकरण चौधरी)",
+      village: "Kuchaman, Nagaur",
+      state: "Rajasthan",
+      is_verified: true,
+      farm_size_acres: 22.0
+    }
+  }
+];
+
+export const mockMandiBenchmarks = [
+  {
+    id: 1,
+    crop_name: "Wheat",
+    variety: "Sharbati (MP Golden)",
+    msp_price_per_kg: 24.25,
+    mandi_modal_price_per_kg: 28.5,
+    retail_market_price_per_kg: 54.0,
+    mandi_name: "Sehore APMC Mandi",
+    state: "Madhya Pradesh"
+  },
+  {
+    id: 2,
+    crop_name: "Bajra",
+    variety: "Desi Nagaur Pearl Millet",
+    msp_price_per_kg: 26.25,
+    mandi_modal_price_per_kg: 22.8,
+    retail_market_price_per_kg: 48.0,
+    mandi_name: "Nagaur APMC Mandi",
+    state: "Rajasthan"
+  },
+  {
+    id: 3,
+    crop_name: "Rice",
+    variety: "1121 Aged Pusa Basmati",
+    msp_price_per_kg: 38.0,
+    mandi_modal_price_per_kg: 48.5,
+    retail_market_price_per_kg: 120.0,
+    mandi_name: "Karnal Grain Market",
+    state: "Haryana"
+  }
+];
+
+export const mockGroupBuys = [
+  {
+    id: 1,
+    title: "Sunrise Greens Apartments - Annual Sharbati Wheat Pool",
+    crop_name: "Wheat",
+    crop_name_hi: "सीहोर शरबती गेहूँ",
+    variety: "MP Sharbati Grade-A (25kg & 50kg Bags)",
+    farmer_name: "Rameshwar Patel",
+    apartment_society: "Sunrise Greens Residential Society",
+    city: "Pune, Maharashtra",
+    target_weight_kg: 1000.0,
+    current_weight_kg: 775.0,
+    base_price_per_kg: 36.0,
+    pooled_price_per_kg: 32.5,
+    min_savings_percent: 24.0,
+    status: "active",
+    deadline_date: "In 4 days",
+    organizer_name: "Priya Sharma (Tower B Rep)",
+    participants_count: 18,
+    image_url: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 2,
+    title: "Palm Grove Society - Pure Desi Nagauri Bajra Pool",
+    crop_name: "Bajra",
+    crop_name_hi: "देसी नागौरी बाजरा",
+    variety: "Desi Rajasthan Winter Bajra (10kg & 25kg)",
+    farmer_name: "Ramkaran Choudhary",
+    apartment_society: "Palm Grove Enclave, Sector 54",
+    city: "Gurugram, Haryana",
+    target_weight_kg: 500.0,
+    current_weight_kg: 340.0,
+    base_price_per_kg: 32.0,
+    pooled_price_per_kg: 28.0,
+    min_savings_percent: 26.0,
+    status: "active",
+    deadline_date: "In 2 days",
+    organizer_name: "Amit Mathur (Society Secretary)",
+    participants_count: 12,
+    image_url: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 3,
+    title: "EcoLife Greens - Royal Taraori 1121 Basmati Rice",
+    crop_name: "Rice",
+    crop_name_hi: "तराओरी पारंपरिक बासमती",
+    variety: "Aged Single-Origin Basmati (10kg & 25kg)",
+    farmer_name: "Gurpreet Singh Gill",
+    apartment_society: "EcoLife Habitat, Whitefield",
+    city: "Bengaluru, Karnataka",
+    target_weight_kg: 600.0,
+    current_weight_kg: 520.0,
+    base_price_per_kg: 72.0,
+    pooled_price_per_kg: 64.0,
+    min_savings_percent: 28.0,
+    status: "active",
+    deadline_date: "In 3 days",
+    organizer_name: "Karthik Narayan",
+    participants_count: 21,
+    image_url: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=800&q=80"
+  }
+];
